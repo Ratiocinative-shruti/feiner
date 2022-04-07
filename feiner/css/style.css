@@ -1,0 +1,786 @@
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.top-bar p{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+}
+.top-bar h4{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif; 
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding-left: 10%;
+}
+p.top-bar-p2 {
+    position: relative;
+    left: 20px;
+    /* padding-right: 10px; */
+}
+.top-bar {  
+    display: flex;
+    background-color:#102432;
+    padding: 12px 40px;
+    justify-content: space-between;
+}
+.top-bar a{
+    color: white;
+    text-decoration: none;
+}
+.nav-div a{
+    text-decoration: none;
+}
+.nav-div ul li {
+    list-style: none;
+}
+.nav-div ul li a{
+    color: black;
+    font-family: 'Outfit', sans-serif; 
+    font-size: 18px;
+}
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 35px 12px;
+}
+.img-logo-top{
+    padding-top: 7px;
+    padding-left: 5px;
+}
+img-logo-top a{
+    text-decoration: none;
+}
+.nav-div ul {
+    display: flex;
+    column-gap: 31px;
+    padding-left: 5.5%;
+    padding-top: 31px;
+    font-weight: 400;
+}
+.top-btn {
+    top: 50px;
+    position: relative;
+    left: 14px;
+}
+.banner1-btn {
+    padding-top: 6px;
+}
+.consutation-btn{
+    border: 1px solid #24346f;
+    background-color: #24346f;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    padding: 23px 24px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.bg-image{
+    background-image: url('../images/banner-1.png');
+    min-height: 668px;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 60px;
+    margin: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 57px;
+    font-family: "Outfit";
+}
+.banner1-content{
+    padding-top: 160px;
+}
+.banner1-content a{
+    text-decoration: none;
+}
+.consutation-btn2{
+    border: 1px solid #da8e2e;
+    background-color: #da8e2e;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    padding: 23px 24px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: 60px;
+}
+.banner-2{
+    background-image: url('../images/banner-2.png');
+    background-size: cover;
+    background-position:center;
+    min-height: 247px;
+    background-repeat: no-repeat;
+}
+.banner-2 h2{
+    margin: 0;
+    font-size: 40px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.banner-2 p{
+    color: #ffffff; 
+    padding-left: 50px;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "Outfit";
+    letter-spacing: 0.5px;
+}
+.banner2-leftcnt{
+    padding-top: 79px;  
+    display: inline-block;
+}
+.btn3{
+    border: 1px solid #24346f;
+    background-color: #24346f;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    padding: 23px 42px;
+    margin-top: 86px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+}
+.container a{
+    text-decoration: none;
+}
+.div-1fgs{
+    max-width: 601px;
+    display: inline-block;
+}
+p.cnt-fgs-p2 {
+    padding-top: 11px;
+}
+.div-1fgs h3{
+    font-size: 50px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+    margin: 30px 0 ;
+}
+.div-1fgs p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.btn-div{
+    padding-top: 50px;
+}
+.video-div{
+   float: right;
+}
+.video-sec{
+
+    overflow: hidden;
+}
+.dark-blue-box{
+    min-height: 405px;
+    background-color: #102432;
+}
+section{
+    overflow: hidden;
+}
+.video{
+    margin-top: 70px;
+    margin-bottom: 137px;
+}
+.video-1{
+   max-width:589px;
+    min-height:401px;
+    border-radius: 4px;
+}
+.card-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    text-align: center;
+}
+.num{
+    font-size: 80px;
+    line-height: 30px;
+    color: #9fbaeb;
+    font-weight: 700;
+    font-family: "Outfit";
+    margin: 50px 0 40px;
+}
+.bb-p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Outfit";
+}
+.bb-2{
+    margin-top: 10px;
+}
+
+.car-right{
+    float: right;
+    margin-top:-23px;
+}
+.car-left h2{
+    font-size: 50px;
+    line-height: 30px;
+    color: #212125;
+    margin: 0px;
+    font-weight: 300;
+    font-family: "Outfit";
+}
+.car-bar {
+    margin-top: 93px;
+    margin-bottom: 73px;
+}
+.div-a{
+    background-color: aqua;
+    height: 250px;
+}
+.car-img {
+    margin: 48px 0;
+}
+.car-img-div-1{
+    background-image: url(../images/img-1.png);
+    max-width: 320px;
+    min-height: 420px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-cont{
+    bottom:10px;
+    position: absolute;
+    padding: 10px;
+}
+.car-img-div-2{
+    background-image: url(../images/img-2.png);
+    max-width: 320px;
+    min-height: 420px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.car-img-div-3{
+    background-image: url(../images/img-3.png);
+    max-width: 320px;
+    min-height: 420px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.car-img-div-4{
+    background-image: url(../images/img-4.png);
+    max-width: 320px;
+    min-height: 420px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.car-img-div-5{
+    background-image: url(../images/img-5.png);
+    max-width: 320px;
+    min-height: 420px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.car-img-div-6{
+    background-image: url(../images/img-6.png);
+    max-width: 320px;
+    min-height: 420px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.car-img-div-7{
+    background-image: url(../images/img-7.png);
+    max-width: 320px;
+    min-height: 420px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-cont p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+    font-family: "Outfit";
+}
+.img-cont h3{
+    font-size: 20px;   
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Outfit";
+    margin: 0;
+}
+
+.car-img .owl-item.active {
+    max-width: 320px;
+}
+.car-img .owl-item.cloned {
+    max-width: 320px;
+}
+.car-img.owl-item {
+    max-width: 320px;
+}
+.fgs-diff {
+    display: flex;
+    justify-content: space-between;
+}
+.wat-fgs-dif h2{
+    font-size: 50px;
+    color: #212125;
+    font-weight: 300;
+    font-family: "Outfit";
+    margin-bottom: 30px;
+}
+.wat-fgs-dif p{
+   max-width: 600px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.form2{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 41%;
+    padding-bottom: 10px;
+    margin-left: 17px;
+}
+::placeholder {
+    font-size: 18px;
+    line-height: 30px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+  }
+.fgs-form{
+    max-height:382px;
+    border: 2px solid #d8d8d8;
+    margin-top: 70px;
+    font-family: "Outfit";
+    border-radius: 5px;
+}
+.form-content {
+    margin: 48px 26px;
+}
+.fgs-form p{
+    margin-left:10px ;
+    font-size: 18px;
+    margin-top:7%;
+}
+.form3{
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 42px 10px 0;
+    width: 90%;
+}
+input{
+    font-size: 18px;
+    border: none;
+}
+.form-btn {
+    padding: 64px 15px;
+}
+.form-btn1{
+    border: 1px solid #24346f;
+    background-color: #24346f;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    padding: 23px 93px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.fa-long-arrow-alt-right:before, .fa-right-long:before {
+    content: "\f30b";
+    padding-left: 25px;
+}
+.industries-serve{
+    min-height: 1086px;
+    background-color: #f1f1f1;
+    margin-top: 110px;
+}
+.industries-serve h2{
+    font-size: 50px;
+    line-height: 30px;
+    color: #212125;
+    font-weight: 300;
+    font-family: "Outfit";
+    text-align: center;
+    padding-top: 95px;
+}
+.d1{
+    max-width: 230px;
+    min-height:255px ;
+    text-align: center;
+} 
+.d1 h4{
+    font-size: 20px;
+    color: #212125;
+    font-weight: 700;
+    font-family: "Outfit";
+    text-align: center;
+}
+.d1 p{
+    font-size: 18px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+    text-align: center;
+}
+.row1-grey {
+    display: flex;
+    column-gap: 47px;
+}
+.d1-1{
+    padding-top: 17px;
+}
+.row2-grey {
+    display: flex;
+    justify-content: center;
+    column-gap: 41px;
+    margin-top: 20px;
+}
+.row3-grey {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 50px;
+}
+.item p{
+    z-index: 2;
+}
+.people-talking h2{
+    font-size: 50px;
+    color: #212125;
+    font-weight: 400;
+    margin-top: 6.8%;
+    margin-bottom: 23px;
+    font-family: "Outfit";
+}
+.people-talking h3{
+    font-size: 18px;
+    line-height: 22px;
+    color: #212125;
+    font-weight: 700;
+    margin-bottom: 17px;
+    font-family: "Outfit";
+}
+.rachel{
+    font-size: 18px;
+    line-height: 22px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.bg-building{
+    background-image: url('../images/Rectangle9.png');
+    background-size: cover;
+    background-position:center;
+    min-height: 593px;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: 92px;
+}
+.logo-imgs{
+    background-image: url('../images/Layer11.png');
+    background-size: cover;
+    background-position:center;
+    min-height: 70px;
+    background-repeat: no-repeat;
+   
+}
+.logo-img-div{
+    min-height: 275px;
+    background-color: white;
+    position: relative;
+    top: 160px;
+}
+.acc h2{
+    font-size: 50px;
+    color: #212125;
+    font-weight: 400;
+    margin: 83px 0 40px;
+    font-family: "Outfit";
+}
+.car-img1{
+    max-width: 150px;
+}
+.car-img2{
+    margin-top: -25px;
+    max-width: 150px;
+}
+.owl-carousel {
+    width: 100%;
+    z-index: 1;
+}
+.owl-theme .owl-nav {
+    margin-top: 21px;
+}
+.imgs-logo {
+    padding-top: 75px;
+}
+.accordion{
+    max-width:616px ;
+}
+.accordion  .contentBx{
+    position: relative;
+    margin-bottom: 35px;
+}
+.accordion .contentBx .label{
+    position: relative;
+    margin: 13px 0px;
+    cursor: pointer;
+}
+.accordion .contentBx .label::before{
+    content: '+';
+    position: absolute;
+    top: 10%;
+    font-weight: bold;
+    right: 0px;
+    font-size: 1.5em;
+    color: #9fbaeb;
+}
+.accordion .contentBx.active .label::before{
+    content: '-';
+}
+.accordion .contentBx .content{
+    position: relative;
+ 
+    height: 0;
+    overflow: hidden;
+ 
+}
+.accordion .contentBx.active .content{
+    height: 161px;
+
+}
+.acc-1 {
+    display: flex;
+    column-gap: 25%;
+}
+.content p{
+    margin-top: 6px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.label p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #212125;
+    font-weight: 700;
+    font-family: "Outfit";
+    margin: 0;
+}
+.bg-btm{
+    background-image: url('../images/rect9.png');
+    background-size: cover;
+    background-position:center;
+    min-height: 350px;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.div-h2 h2{
+    font-size: 51px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Outfit";
+    margin: 0;
+}
+.btm-cont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 104px;
+}
+.btm-container{
+    max-width: 1620px;
+    margin: 0 auto;
+    padding-top: 90px 0;
+}
+.div-1 h3{
+    margin-bottom: 30px;
+    margin-top: 19px;
+}
+.div-1 h3 a{
+    margin: 0;
+    font-size: 18px;
+    color: #212125;
+    padding-bottom: 13px;
+    font-weight: 700;
+    font-family: "Outfit";
+    text-decoration: none;
+}
+.div-1 ul{
+    /* margin: 0; */
+    padding: 0;
+}
+.div-1 ul li{
+    list-style: none;
+}
+.div-2a {
+    margin-left: 30px;
+}
+.div-3a {
+    position: relative;
+    left: 24px;
+}
+.div-4a {
+    position: relative;
+    left: 20px;
+}
+.div-2b{
+    margin-top: 60px;
+    position: relative;
+    right: 5px;
+}
+.div-5a {
+    position: relative;
+    left: 16px;
+}
+.div-1 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.owl-p{
+    width: 1299px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+    overflow: hidden;
+
+}
+.consutation-btn3{
+    
+     border: 1px solid #da8e2e;
+     background-color: #da8e2e;
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        padding: 23px 48px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 700;
+        position: relative;
+        top: 60px;
+
+}
+.div-2 , .div-2b ul{
+    padding: 0;
+}
+.div-2 ul li , .div-2b ul li{
+    list-style: none;
+}
+.div-2 ul li a , .div-2b ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212125;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.uldiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 78px 0 ;
+}
+.div-2 {
+    margin-top: 60px;
+    position: relative ;
+    right: 28px;
+}
+.btmdiv {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    padding: 27px 0;
+}
+.lst-cont p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #212125;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: "Outfit";
+}
+p.lst-cont-p2 {
+    font-weight: 700;
+    margin: 0;
+}
+a:hover {
+    background-color: #cc6666;
+}
+  .item {
+    overflow: hidden;
+}
+.people-words .owl-nav{
+    position: absolute;
+    top: -6rem;
+    right:0 ;
+}
+img.img-car-arrow {
+    width: 30px;
+    padding-left: 34px;
+}
+.car-img .owl-carousel .owl-nav button.owl-next, .car-img .owl-carousel .owl-nav button.owl-prev{
+    background: 0 0;
+    color: black;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    border: 3px solid;
+    border-radius: 31px;
+    width: 50px;
+    height: 50px;
+}
+.car-img .owl-next ,.car-img .owl-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff !important;
+}
+.car-img .owl-next{
+    right: 1%;
+}
+.car-img .owl-prev{
+    left: 1%;
+}
+.d1:hover{
+    background-color:#DABCC3;
+}
